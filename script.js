@@ -8,7 +8,7 @@ let items = [];
 let isEditing = false;
 let editId = 0;
 const displayUI = function () {
-    if (items.length > 0) {
+    if (items.length >= 0) {
     itemContainerEl.innerHTML = '';
     items.forEach((item) => {
 const listEl = document.createElement('li');
